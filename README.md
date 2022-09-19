@@ -10,3 +10,6 @@ Contains general documentation about the Berry picker tracker app.
 
 ### Example user interface
 ![App pages](images/app_pages.png)
+
+### Architecture
+![Architecture](images/architecture.png)
