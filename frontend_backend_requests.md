@@ -11,7 +11,7 @@ Shows two examples of how we can send and receive data from our frontend using H
 - `fetch()`: React Native's way to handle HTML requests. See [React Native Networking documentation](https://reactnative.dev/docs/network)
 
 ### POST example:
-```bash
+```jsx
 const postCoordsToServer = async ({userID, coordinate}) => {
 	const url = `http://berry-picker-tracker.cs.helsinki.fi/create-waypoint`;
 	const settings = {
@@ -40,7 +40,7 @@ const postCoordsToServer = async ({userID, coordinate}) => {
 
 
 ### GET example:
-```bash
+```jsx
 const getCoordsFromServer = async (userID) => {
 	const url = `http://berry-picker-tracker.cs.helsinki.fi/get-user-routes/{userID}`;
 	const settings = {
