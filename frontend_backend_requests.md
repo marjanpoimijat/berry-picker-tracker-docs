@@ -2,7 +2,7 @@
 Shows two examples of how we can send and receive data from our frontend using HTML requests.
 
 ### Key functionality
-- `url`: Address to which we communicate with the server. This determines which values we need to send and in which format to get our requests through. See [backend main.py](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker-server/blob/main/src/main.py)
+- `url`: Address to which we communicate with the server. This determines which values we need to send and in which format to get our requests through. See [backend main.py](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker-server/blob/main/src/main.py). Emulator local address: http://10.0.2.2:8000
 - `userID`: Usually needed to get the data to the right address.
 - `settings`: HTML request configuration.
 - `body: JSON.stringify()`: Puts our data to the correct format for our server to use.
