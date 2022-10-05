@@ -54,6 +54,7 @@ const getCoordsFromServer = async (userID) => {
 		const response = await fetch(url, settings);
 		const data = await response.json();
 		console.log("Response:", data);
+		return (data)
 	} catch (error) {
 		console.log(error);
 	}
