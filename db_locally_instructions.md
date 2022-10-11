@@ -39,7 +39,7 @@ sudo -u postgres psql
 In psql terminal create new database named 'bpt' with command:
 
 ```
-CREATE DATABASE bpt
+CREATE DATABASE bpt;
 ```
 
 #### Setting up environment variables
