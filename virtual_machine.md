@@ -141,7 +141,7 @@ ssh berry-picker-tracker.cs.helsinki.fi
 Navigate to your copy of the `berry-picker-tracker-server` repository and run:
 
 ```bash
-git remote add production berry-picker-tracker.cs.helsinki.fi:/bpt/production.git
+git remote add production berry-picker-tracker.cs.helsinki.fi:/bpt/production/code/.git
 ```
 
 You can now run the following to push to production:
