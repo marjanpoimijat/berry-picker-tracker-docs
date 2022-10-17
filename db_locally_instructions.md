@@ -47,7 +47,7 @@ CREATE DATABASE bpt;
 Create file named '.env' in the same folder as the backend root directory and put the next line in:
 
 ```
-DATABASE_URI=*username*/*password*@localhost:5432/bpt
+DATABASE_URI=postgresql://*username*:*password*@localhost:5432/bpt
 ```
 
 Where *username* is your Postgresql user and *password* is your users password. 
