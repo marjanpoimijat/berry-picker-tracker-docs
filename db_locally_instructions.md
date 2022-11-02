@@ -44,7 +44,7 @@ CREATE DATABASE bpt;
 
 #### Setting up environment variables
 
-Create file named '.env' in the same folder as the backend root directory and put the next line in:
+Create file named '.env' in the same folder as the backend root directory and add the next line in:
 
 ```
 DATABASE_URI=postgresql://*username*:*password*@localhost:5432/bpt
@@ -68,10 +68,8 @@ When you insert something to database for the first time via application, the sc
 automatically!
 
 
-For testing put
+For testing add
 
 ```
 TEST_DATABASE_URI=sqlite:///test.db
 ```
-
-in the same '.env' file
