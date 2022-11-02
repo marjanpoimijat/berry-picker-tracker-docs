@@ -57,7 +57,7 @@ You can check your current user with SQL command:
 SELECT current_user;
 ```
 
-if you don't know your current user's password, you can define it in psql terminal with command:
+If you don't know your current user's password, you can define it in psql terminal with command:
 
 ```
 \password *username*
@@ -67,3 +67,11 @@ if you don't know your current user's password, you can define it in psql termin
 When you insert something to database for the first time via application, the schema tables are created
 automatically!
 
+
+For testing put
+
+```
+TEST_DATABASE_URI=sqlite:///test.db
+```
+
+in the same '.env' file
