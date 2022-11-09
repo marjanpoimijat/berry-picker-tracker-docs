@@ -12,6 +12,11 @@ Contains general documentation about the Berry picker tracker app.
 - [Instructions to connect local database](db_locally_instructions.md)
 - [Working hours record](https://helsinkifi-my.sharepoint.com/:x:/g/personal/xnoxno_ad_helsinki_fi/ETDD0FY5rd1An2Se0MyZSY4BvD3RpfLrcq2aFHH6xXRbMQ?e=HGQdGf)
 
+### Licenses
+
+- [Front end licenses](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker/tree/main/licenses)
+- [Back end licenses](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker-server/tree/main/licenses)
+
 ### Example user interface
 
 ![App pages](images/app_pages.png)
@@ -19,8 +24,3 @@ Contains general documentation about the Berry picker tracker app.
 ### Architecture
 
 ![Architecture](images/architecture.png)
-
-### Licenses
-
-- [Front end licenses](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker/tree/main/licenses)
-- [Back end licenses](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker-server/tree/main/licenses)
