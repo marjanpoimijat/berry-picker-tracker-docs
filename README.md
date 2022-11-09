@@ -19,3 +19,8 @@ Contains general documentation about the Berry picker tracker app.
 ### Architecture
 
 ![Architecture](images/architecture.png)
+
+### Licenses
+
+- [Front end licenses](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker/tree/main/licenses)
+- [Back end licenses](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker-server/tree/main/licenses)
