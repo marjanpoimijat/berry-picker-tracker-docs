@@ -173,7 +173,7 @@ Application [styles](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracke
 
 ### Requests
 
-Server [requests](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker/blob/main/src/styles/theme.ts) performed in `src/requests.ts` -file. Backend address is passed via `baseUrl` which should defined at `.env` -file in format `URI=<backend-address>`. In build configuration `baseUrl` will be defined at [eas.json](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker/blob/main/eas.json) in format:
+Server [requests](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker/blob/main/src/requests.ts) performed in `src/requests.ts` -file. Backend address is passed via `baseUrl` which should defined at `.env` -file in format `URI=<backend-address>`. In build configuration `baseUrl` will be defined at [eas.json](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker/blob/main/eas.json) in format:
 
 ```
 "build": {
