@@ -68,7 +68,7 @@ When you insert something to database for the first time via application, the sc
 automatically!
 
 
-For testing add
+For testing add:
 
 ```
 TEST_DATABASE_URI=sqlite:///test.db
