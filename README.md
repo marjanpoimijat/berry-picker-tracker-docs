@@ -8,6 +8,7 @@ Contains general documentation about the Berry picker tracker app.
 - [Front-end repository](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker)
 - [Back-end repository](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker-server)
 - [Implementation document - frontend](implementation_document.md)
+- [Building instructions - frontend](frontend_building_instructions.md)
 - [Database schema](bpt_schema.png)
 - [Instructions to connect local database](db_locally_instructions.md)
 - [Working hours record](https://helsinkifi-my.sharepoint.com/:x:/g/personal/xnoxno_ad_helsinki_fi/ETDD0FY5rd1An2Se0MyZSY4BvD3RpfLrcq2aFHH6xXRbMQ?e=HGQdGf)
