@@ -1,10 +1,10 @@
 # Building instructions using EAS Build
 
-### General information
+## General information
 
 More detailed information can be found from the [Expo Docs](https://docs.expo.dev/build/introduction/).
 
-##### Preparations
+#### Preparations
 
 To install EAS CLI run the command:
 
@@ -18,15 +18,15 @@ Log in to Expo account using Berry Picker Tracker credentials. As a alternative 
 eas login
 ```
 
-To build application run the command and choose for which platform you would like build the application:
+To build application run the command and choose for which platform you would like to build the application:
 
 ```
 eas build
 ```
 
-fter building process has been finished the application and list of previous builds can be found at the project page of the Expo account.
+After building process has been finished, list of previous builds can be found at the project page of the Expo account.
 
-##### Configuration
+#### Configuration
 
 This project uses two **app-specific secrets** which can be created at project dashboard in Expo account. Secrets are in format:
 
@@ -41,7 +41,7 @@ To see which secrets are created for the project run the command:
 eas secret:list
 ```
 
-Secrets are defined in [app.config.js](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker/blob/main/app.config.js) and placed as a environment variables during the build process.
+Secrets are defined in [app.config.js](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker/blob/main/app.config.js) and placed as an environment variables during the build process.
 
 ```
 android: {
@@ -59,13 +59,13 @@ android: {
 },
 ```
 
-Build configurations can be found from [eas.json](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker/blob/main/eas.json). Production build will be created as a default and other builds can be created by running to the command:
+Build configurations can be found from [eas.json](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker/blob/main/eas.json). Production build will be created as a default and other builds can be created by running the command:
 
 ```
 eas build --profile <profile-name>
 ```
 
-Each of the profiles needs to have backend address defined as environment variable in format:
+Each of the profiles needs to have backend address defined as an environment variable in format:
 
 ```
 "production": {
@@ -75,11 +75,11 @@ Each of the profiles needs to have backend address defined as environment variab
 }
 ```
 
-**Note.** Build and version numbering should be updated after each build submits from the `app.config.js`. Further information about build configuration can be found from the [Expo docs](https://docs.expo.dev/build/eas-json/).
+**Note.** Build and version numbering should be updated after each build submit from the `app.config.js`. Further information about build configuration can be found from the [Expo docs](https://docs.expo.dev/build/eas-json/).
 
-### Submiting builds
+## Submiting builds
 
-##### Android APK build
+#### Android APK build
 
 To build and install Android APK build run the command:
 
@@ -89,9 +89,9 @@ eas build --profile apk
 
 After build has completed, go the Expo account and open the latest `Android internal distribution build` and press `install` button. Scan the QR-code from the pop-up window and install the application on a Android device.
 
-##### Google Play Store
+#### Google Play Store
 
-As of time of writing, Berry Picker Tracker application has been placed into `internal testing` state at the Google Play console. There are several ways to submit the build into Google Play console:
+As of time of writing, Berry Picker Tracker application has been placed into `internal testing` state at the Google Play console. There are few ways to submit the build into Google Play console:
 
 1. Submit from the command line
 
@@ -119,9 +119,9 @@ As of time of writing, Berry Picker Tracker application has been placed into `in
 
 After new release has been created, internal testers can install the application via Google Play Store.
 
-##### Apple App Store
+#### Apple App Store
 
-Apple developer program account is needed to install application into ios devices. Go to App Store Connect and create new application. After that create following submit configuration at `eas.json`:
+Apple developer program account is needed to install application into ios devices. Go to App Store Connect and create new application. After that, create following submit configuration at `eas.json`:
 
 ```
 "submit": {
@@ -139,4 +139,4 @@ Run the command:
 eas submit -p ios --latest
 ```
 
-After submiting a build it will show up in App Store Connect under the TestFlight page. After managing missing compliences application can be installed through TestFlight App for the internal testing. Publishing application through Apple App Store requires successfull app review process which can be requested at the App Store connect.
+After submiting a build, it will show up in App Store Connect under the `TestFlight` page. After managing missing compliences application can be installed through `TestFlight` -app for the internal testing. Publishing application through Apple App Store requires successfull app review process which can be requested at the App Store connect.
