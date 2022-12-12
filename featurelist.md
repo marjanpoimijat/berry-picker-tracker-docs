@@ -3,7 +3,7 @@
 
 ##### Map Screen Features
 -	Shows the National Land Survey of Finland (Maanmittauslaitos) topographic map, which can be zoomed in and out.
--	Start and End Tracking Buttons, Navigation Tab for moving between screens.
+-	Start and End Tracking Buttons.
 -	Starting the app first time generates the user a UserID. For easy and privacy protected use there are no user accounts storing any personal information other than device location.
 -	When tracking is started, waypoints are stored, and the user’s route is drawn on the map, with location coordinates provided in a separate box.
 -	Tracking proceeds on background.
