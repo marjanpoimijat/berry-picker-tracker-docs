@@ -22,9 +22,9 @@ Contains general documentation about the Berry picker tracker app.
 
 - [Privacy Policy](privacy_policies.md)
 
-### Example user interface
+### Current User Interface and Features
 
-![App pages](images/app_pages.png)
+![User interface](images/map_and_track.png)
 
 ### Architecture
 
