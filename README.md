@@ -26,6 +26,10 @@ Contains general documentation about the Berry picker tracker app.
 
 ![User interface](images/map_and_track.png)
 
+### Settings Options
+
+![Settings interface](images/settings.png)
+
 ### Architecture
 
 ![Architecture](images/architecture.png)
