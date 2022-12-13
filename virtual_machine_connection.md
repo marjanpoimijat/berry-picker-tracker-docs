@@ -65,7 +65,6 @@ ssh <university username>@melkki.cs.helsinki.fi
 ssh <univeristy username>@berry-picker-tracker.cs.helsinki.fi
 ```
 
-
 To authorise your key on the BPT-VM, you'll need a home folder for your user with a `.ssh/` folder inside it:
 
 ```bash
@@ -136,12 +135,13 @@ You should now be able to connect to the BPT-VM without specifying a username or
 ssh berry-picker-tracker.cs.helsinki.fi
 ```
 
-## Adding the BPT-VM as a production remote
+## Adding the BPT-VM as git remotes
 
 Navigate to your copy of the `berry-picker-tracker-server` repository and run:
 
 ```bash
-git remote add production berry-picker-tracker.cs.helsinki.fi:/bpt/production/code/.git
+git remote add production berry-picker-tracker.cs.helsinki.fi:/bpt/production/code/.git && \
+git remote add staging berry-picker-tracker.cs.helsinki.fi:/bpt/staging/code/.git
 ```
 
 You can now run the following to push to production:
@@ -150,4 +150,8 @@ You can now run the following to push to production:
 git checkout main && git pull && git push production
 ```
 
-TODO: A VSCode task for production pushes
+And to staging:
+
+```bash
+git checkout main && git pull && git push staging
+```
