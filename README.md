@@ -36,6 +36,7 @@ Contains general documentation about the Berry picker tracker app and project.
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=44t3ZLfdkvw
 " target="_blank"><img src="http://img.youtube.com/vi/44t3ZLfdkvw/0.jpg" 
 alt="44t3ZLfdkvw" width="240" height="180" border="10" /></a>
+##
 > #### Current User Interface and Features
 ####  
 ![User interface](images/map_and_track.png)
