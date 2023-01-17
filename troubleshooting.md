@@ -2,7 +2,7 @@
 
 ## Android emulation on Cubbli
 
-1. Start by installing the Android SDK and 
+1. Install the Android SDK.
 
 ```bash
 # Install Android SDK
@@ -18,3 +18,5 @@ $ echo 'export ANDROID_HOME="$HOME/Android/Sdk"' >> .bashrc
 3. Set up an emulator by following [the instructions](https://docs.expo.dev/workflow/android-studio-emulator).
     - Pixel 6 Pro was used as the device
     - Android R (11) was used as the operating system
+
+4. Keep Android Studio and the emulator open while running the frontend.
