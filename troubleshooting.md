@@ -1,1 +1,20 @@
 # Troubleshooting
+
+## Android emulation on Cubbli
+
+1. Start by installing the Android SDK and 
+
+```bash
+# Install Android SDK
+$ sudo apt install android-sdk
+
+# Add the path to the sdk to .bashrc
+# Make sure the path is correct
+$ echo 'export ANDROID_HOME="$HOME/Android/Sdk"' >> .bashrc
+```
+
+2. Install Android Studio by following [the instructions](https://developer.android.com/studio/install#linux).
+
+3. Set up an emulator by following [the instructions](https://docs.expo.dev/workflow/android-studio-emulator).
+    - Pixel 6 Pro was used as the device
+    - Android R (11) was used as the operating system
