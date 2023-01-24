@@ -1,23 +1,25 @@
-# Instructions to connect to database locally (for Ubuntu at least)
+# Instructions to connect to database locally
 
-This application uses PostgreSQL as a database, make sure that it is installed with command:
+This application uses a PostgreSQL database. Make sure that it is installed with command:
 
 ```sh
 psql --version
 ```
 
-If command does not return any version, go see install instructions from [here](https://www.postgresql.org/download/)
+If running the command does not return any version, see the instructions [here](https://www.postgresql.org/download/).
 
 You might need to install some dev packages in order to connect database with commands:
 
 ```sh
 sudo apt-get install python3-dev
 ```
+
 for Python dev package and
 
 ```sh
 sudo apt-get install libpq-dev
 ```
+
 for PostgreSQL dev package
 
 ## After installing
@@ -34,7 +36,7 @@ You can open PostgreSQL terminal with command:
 sudo -u postgres psql
 ```
 
-#### Setting up database
+### Setting up database
 
 In psql terminal create new database named 'bpt' with command:
 
@@ -42,15 +44,18 @@ In psql terminal create new database named 'bpt' with command:
 CREATE DATABASE bpt;
 ```
 
-#### Setting up environment variables
+### Setting up environment variables
 
-Create file named '.env' in the same folder as the backend root directory and add the next line in:
+Create a new file named '.env' in the same folder as the backend root directory and add the next line in:
 
 ```
 DATABASE_URI=postgresql://*username*:*password*@localhost:5432/bpt
 ```
 
-Where *username* is your Postgresql user and *password* is your users password. 
+Where *username* is your Postgresql user and *password* is your users password.
+
+If this does not work, remove `localhost:5432` from the line.
+
 You can check your current user with SQL command:
 
 ```
@@ -63,10 +68,8 @@ If you don't know your current user's password, you can define it in psql termin
 \password *username*
 ```
 
-
 When you insert something to database for the first time via application, the schema tables are created
 automatically!
-
 
 For testing add:
 
