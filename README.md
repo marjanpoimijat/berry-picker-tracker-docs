@@ -7,7 +7,7 @@ Contains general documentation about the Berry picker tracker app and project.
 - [Coding practices](coding_practices.md)
 - [Definition of Done](definition_of_done.md)
 - [Used technologies](used_technologies.md)
-- [Working hours record](https://helsinkifi-my.sharepoint.com/:x:/g/personal/xnoxno_ad_helsinki_fi/ETDD0FY5rd1An2Se0MyZSY4BvD3RpfLrcq2aFHH6xXRbMQ?e=HGQdGf)
+- [Working hours record](https://helsinkifi-my.sharepoint.com/:x:/g/personal/kajy_ad_helsinki_fi/EVqaF5z1-9pBt4fEqOvs6E0B5plAijWjgKxFrGQQqV2kSg?e=Iay2EU)
 - [Implementation document - frontend](implementation_document.md)
 - [Building instructions - frontend](frontend_building_instructions.md)
 
