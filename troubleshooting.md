@@ -1,6 +1,6 @@
 # Troubleshooting
 
-## Android emulation on Cubbli
+## Android emulation on Cubbli / Ubuntu
 
 1. Install the Android SDK.
 
