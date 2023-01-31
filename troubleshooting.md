@@ -20,3 +20,8 @@ $ echo 'export ANDROID_HOME="$HOME/Android/Sdk"' >> .bashrc
     - Android 13.0 (API 33) was used as the operating system
 
 4. Keep Android Studio and the emulator open while running the frontend.
+
+## Github Actions Workflow
+
+### legacy-install-failure
+1. Jos kyseessä on uvtools-riippuvuus, käytä workflowssa pienempää versiota. Python 3.9 on toimiva (tammikuu 2023).
