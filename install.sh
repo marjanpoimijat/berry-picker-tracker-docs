@@ -96,7 +96,7 @@ while true; do
         echo "URI=http://10.0.2.2:8000" >> .env
         print_status "Backend URI set to the emulator address"
         break
-        elif [[ "$choice" = "n" ]]; then
+    elif [[ "$choice" = "n" ]]; then
         echo "URI=<production address here>" >> .env
         print_status "Backend URI set to the production address"
         break
