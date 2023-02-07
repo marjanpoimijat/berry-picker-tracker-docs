@@ -7,13 +7,13 @@ Contains general documentation about the Berry picker tracker app and project.
 - [Coding practices](coding_practices.md)
 - [Definition of Done](definition_of_done.md)
 - [Used technologies](used_technologies.md)
-- [Working hours record](https://helsinkifi-my.sharepoint.com/:x:/g/personal/xnoxno_ad_helsinki_fi/ETDD0FY5rd1An2Se0MyZSY4BvD3RpfLrcq2aFHH6xXRbMQ?e=HGQdGf)
+- [Working hours record](https://helsinkifi-my.sharepoint.com/:x:/g/personal/kajy_ad_helsinki_fi/EVqaF5z1-9pBt4fEqOvs6E0B5plAijWjgKxFrGQQqV2kSg?e=Iay2EU)
 - [Implementation document - frontend](implementation_document.md)
 - [Building instructions - frontend](frontend_building_instructions.md)
 
 ### Repositories
-- [Front-end repository](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker)
-- [Back-end repository](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker-server)
+- [Front-end repository](https://github.com/marjanpoimijat/berry-picker-tracker)
+- [Back-end repository](https://github.com/marjanpoimijat/berry-picker-tracker-server)
 
 ### Database
 - [Database schema](bpt_schema.png)
@@ -23,8 +23,8 @@ Contains general documentation about the Berry picker tracker app and project.
 ### Legal
 #### Licences
 
-- [Front end licenses](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker/tree/main/licenses)
-- [Back end licenses](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker-server/tree/main/licenses)
+- [Front end licenses](https://github.com/marjanpoimijat/berry-picker-tracker/tree/main/licenses)
+- [Back end licenses](https://github.com/marjanpoimijat/berry-picker-tracker-server/tree/main/licenses)
 
 #### Privacy Policy
 

@@ -1,6 +1,6 @@
 # The production environment
 
-First make sure you can [connect to the BPT virtual machine](./virtual_machine.md).
+First make sure you can [connect to the BPT virtual machine](./virtual_machine_connection.md).
 
 ## Files
 
