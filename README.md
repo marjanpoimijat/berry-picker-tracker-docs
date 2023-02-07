@@ -12,6 +12,8 @@ Contains general documentation about the Berry picker tracker app and project.
 - `git`
 - `virtualenv`
 - `PostgreSQL`
+- `Android SDK`
+- `Android Studio`
 
 #### Installation script for bash
 - [install.sh](https://github.com/marjanpoimijat/berry-picker-tracker-docs/blob/main/install.sh)  
