@@ -15,7 +15,7 @@ Contains general documentation about the Berry picker tracker app and project.
 
 #### Installation script for bash
 - [install.sh](https://github.com/marjanpoimijat/berry-picker-tracker-docs/blob/main/install.sh)  
-Navigate to a folder you wish to clone the repositories in, and run the install script with `<path>/install.sh`.
+Download the install script, avigate to a folder you wish to clone the repositories in, and run the install script with `<path>/install.sh`.
 
 ### General Project Info
 
