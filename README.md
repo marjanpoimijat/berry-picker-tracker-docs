@@ -7,10 +7,9 @@ Contains general documentation about the Berry picker tracker app and project.
 #### Requirements
 - `node:^16.17.0`
 - `npm:^8.19.0`
-- `python3`
+- `python:^3.10.2`
 - `pip3`
 - `git`
-- `virtualenv`
 - `PostgreSQL`
 - `Android SDK`
 - `Android Studio`
