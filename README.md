@@ -2,6 +2,21 @@
 
 Contains general documentation about the Berry picker tracker app and project.
 ***
+
+### Installation
+#### Requirements
+- `node:^16.17.0`
+- `npm:^8.19.0`
+- `python3`
+- `pip3`
+- `git`
+- `virtualenv`
+- `PostgreSQL`
+
+#### Installation script for bash
+- [install.sh](https://github.com/marjanpoimijat/berry-picker-tracker-docs/blob/main/install.sh)  
+Navigate to a folder you wish to clone the repositories in, and run the install script with `<path>/install.sh`.
+
 ### General Project Info
 
 - [Coding practices](coding_practices.md)
