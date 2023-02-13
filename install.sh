@@ -64,7 +64,7 @@ print_question "Enter PostgreSQL username: "
 read USERNAME
 print_question "Enter PostgreSQL password: "
 read PASSWORD
-echo "DATABASE_URI=postgresql://${USERNAME}:${PASSWORD}/bpt" >> .env
+echo "DATABASE_URI=postgresql://${USERNAME}:${PASSWORD}@/bpt" >> .env
 echo "TEST_DATABASE_URI=sqlite:///test.db" >> .env
 echo "LEGEND_URI=https://www.maanmittauslaitos.fi/sites/maanmittauslaitos.fi/files/attachments/2020/01/karttamerkkien_selitys.pdf" >> .env
 
