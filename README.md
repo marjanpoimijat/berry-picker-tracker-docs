@@ -16,7 +16,7 @@ Contains general documentation about the Berry picker tracker app and project.
 
 #### Installation script for bash
 - [install.sh](https://github.com/marjanpoimijat/berry-picker-tracker-docs/blob/main/install.sh)  
-Download the install script, navigate to a folder you wish to clone the repositories in, and run the install script with `<path>/install.sh`. After running the install script, frontend and backend are run with `<repository_path>/run.sh` inside their respective folders.
+Download the install script, add a permission to execute it `chmod +x <path>/install.sh`, navigate to a folder you wish to clone the repositories in, and run the install script with `<path>/install.sh`. After running the install script, frontend and backend are run with `<repository_path>/run.sh` inside their respective folders. Depending on your PostgreSQL you may need to add "localhost:5432" into the database URI in berry-picker-tracker-server/.env, like this: "DATABASE_URI=postgresql://*username*:*password*@localhost:5432/bpt".
 - [Frontend usage](https://github.com/marjanpoimijat/berry-picker-tracker#usage) documentation will instruct how to run the app on an emulator or physical device.
 
 For more extensive installation instructions, check [frontend](https://github.com/marjanpoimijat/berry-picker-tracker) and [backend](https://github.com/marjanpoimijat/berry-picker-tracker-server) documentation.
