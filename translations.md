@@ -51,3 +51,16 @@ export enum Language {
   Swedish = "sv",
 }
 ```
+
+### Appending the language options in the Settings view
+
+All new languages must also be added as an option to be selected in the Settings view.
+
+```diff
+const languageOption = [
+  { key: index++, component: <Text>English</Text>, label: Language.English },
++ { key: index++, component: <Text>Nederlands</Text>, label: Language.Dutch },
+  { key: index++, component: <Text>suomi</Text>, label: Language.Finnish },
+  { key: index++, component: <Text>svenska</Text>, label: Language.Swedish },
+];
+```
