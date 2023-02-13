@@ -14,6 +14,8 @@ The following languages are supported:
 
 All translations are stored in the file [translations.json](https://github.com/marjanpoimijat/berry-picker-tracker/blob/main/src/languages/translations.json). Support for new languages can be done by editing this file. The data is stored in the JSON format where the key is the name of the string as it appears in English in the user interface. Each key stores another object of key-value pairs, where the key is a [language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) and the value is the corresponding translation of the original English string.
 
+### Appending translations.json
+
 Consider the example code snippet below.
 
 ```javascript
@@ -32,7 +34,20 @@ To add support for a new language, you must append all of these objects stored i
 "Original string": {
   "en": "Original string",
   "fi": "String translated into Finnish (fi)",
-  "sv": "String translated into Swedish (sv)",
-+ "nl": "String translated into Dutch (nl)"
++ "nl": "String translated into Dutch (nl)",
+  "sv": "String translated into Swedish (sv)"
 },
+```
+
+### Appending the Language type
+
+To add support for a new language, the Languag type must also be appended.
+
+```diff
+export enum Language {
++ Dutch = "nl",
+  English = "en",
+  Finnish = "fi",
+  Swedish = "sv",
+}
 ```
