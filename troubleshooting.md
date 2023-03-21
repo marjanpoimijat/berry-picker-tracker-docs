@@ -25,3 +25,14 @@ $ echo 'export ANDROID_HOME="$HOME/Android/Sdk"' >> .bashrc
 
 ### legacy-install-failure
 1. Jos kyseessä on uvtools-riippuvuus, käytä workflowssa pienempää versiota. Python 3.9 on toimiva (tammikuu 2023).
+
+
+## NPM yms.
+
+### Prototype Pollution in JSON5 via Parse Method
+
+```
+json5  <1.0.2
+Severity: high
+```
+Kyseessä on vanhentunut versio *find-babel-config* -paketissa, joka on *babel-preset-expo* -paketin riippuvuuden riippuvuuden riippuvuus. Aiheesta on tehty pull request Expon github-repoon tammikuussa 2023. Asia korjautunee viim. Expo SDK:n versiossa 49 tai sitten ei. (Kirjoitettu 21.3.2023)
