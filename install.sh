@@ -59,7 +59,7 @@ echo "NLS_API_KEY=${API_KEY}" >> .env
 
 print_status "Set up PostgreSQL locally and enter your psql username and password here"
 print_status "See the documentation for more information"
-print_link "https://github.com/${ORGANIZATION}/berry-picker-tracker-docs/blob/main/db_locally_instructions.md"
+print_link "https://github.com/${ORGANIZATION}/berry-picker-tracker-docs/blob/main/local_database.md"
 print_question "Enter PostgreSQL username: "
 read USERNAME
 print_question "Enter PostgreSQL password: "

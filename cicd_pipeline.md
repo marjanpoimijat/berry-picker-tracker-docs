@@ -1,7 +1,11 @@
+# CI/CD pipeline
+
 <!--
 See the official documentation for syntax
 https://mermaid.js.org
 -->
+
+The following graph demonstrates the CI/CD pipeline of the application.
 
 ```mermaid
 graph TD
