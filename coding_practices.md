@@ -34,6 +34,10 @@ Use `kebab-case` for file names and `camelCase` for variables. Use `PascalCase` 
 
 Use `snake_case` for both file names and variables.
 
+## Project language
+
+For all source code and documentation, use **English**. The user interface of the application is available in multiple languages but all variable and file names and so on should be in the same language, English.
+
 ## Code documentation
 
 ### Frontend
@@ -70,7 +74,7 @@ def create_user(user: schemas.UserCreate, db: Session):
 
 ### Frontend
 
-The frontend repository has the roughly the following structure. Store all images in the `assets` directory and all source code in `src`.
+The frontend repository has the roughly the following structure. Store all images in the `assets` directory and all source code in `src`. Follow this logical separation and store all new code in their own places. If you are not sure, discuss with your team! New subdirectories and modules can be created when needed.
 
 ```javascript
 ├── assets
