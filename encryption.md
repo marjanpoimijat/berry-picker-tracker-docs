@@ -17,7 +17,7 @@ Berry Picker Tracker uses 128-bit AES-CBC encryption. Keys are stored using nati
 
 Both keys and single-use initialization vectors (IV) are generated using the [expo-crypto](https://docs.expo.dev/versions/latest/sdk/crypto/) API because its number generation uses the native generators of Android and iOS.
 
-```
+```typescript
 Crypto.getRandomBytes(16)
 ```
 
@@ -31,7 +31,7 @@ An [API](https://docs.expo.dev/versions/v48.0.0/sdk/securestore/) to store key-v
 
 A TypeScript cryptography library using the same API as [CryptoJS](https://github.com/brix/crypto-js).
 
-```
+```typescript
 CryptoES.lib.WordArray.create(TypedArray)
 ```
 
@@ -39,14 +39,14 @@ This method converts the given TypedArray (for example, the Uint8Array returned 
 
 WordArray is a custom class of CryptoES, it represents an array of 32-bit words (= 32-bit unsigned integers). The class is used for more optimal performance since modern processors use either 32- or 64-bit word lengths. For more details, see [this StackOverflow answer](https://stackoverflow.com/a/58525779).
 
-```
+```typescript
 CryptoES.enc.Base64.stringify(WordArray)
 CryptoES.enc.Base64.parse(string)
 ```
 
 These methods are used to convert a WordArray object to String and vice versa. The `stringify()`method encodes the bits contained in the WordArray to string using the given [character encoding](https://en.wikipedia.org/wiki/Character_encoding) model, in this case Base64. In reverse, the `parse()` method converts a string to a WordArray object.
 
-```
+```typescript
 CryptoES.AES.encrypt("plaintext data", key, {iv: iv})
 CryptoES.AES.decrypt("ciphertext", key, {iv: iv})
 ```
