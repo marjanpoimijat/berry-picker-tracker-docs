@@ -35,7 +35,7 @@ For more extensive installation instructions, check [frontend](https://github.co
 - [Back-end repository](https://github.com/marjanpoimijat/berry-picker-tracker-server)
 
 ### Database
-- [Database schema](bpt_schema.png)
+- [Database schema](images/bpt_schema.png)
 - [Instructions for connecting to local database](db_locally_instructions.md)
 
 ***
