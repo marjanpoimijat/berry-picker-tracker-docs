@@ -1,4 +1,4 @@
-# Coding practices
+# Coding Practices
 
 This document explains coding practices to follow in this project. The frontend is written in TypeScript and the backend in Python. If not specified here, follow the best practices for each language or other frameworks or tools used.
 
