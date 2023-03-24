@@ -35,9 +35,11 @@ function print_status {
 
 # --------------- Backend installation ---------------
 
+mkdir berry-picker-tracker
+cd berry-picker-tracker
 print_status "Cloning the backend source code..."
-git clone "https://github.com/${ORGANIZATION}/berry-picker-tracker-server.git"
-cd berry-picker-tracker-server
+git clone "https://github.com/${ORGANIZATION}/berry-picker-tracker-server.git" backend
+cd backend
 chmod +x ./run.sh
 print_status "Backend source code cloned"
 
@@ -77,8 +79,8 @@ print_status "Backend installed successfully!"
 # --------------- Frontend installation ---------------
 
 print_status "Cloning the frontend source code..."
-git clone "https://github.com/${ORGANIZATION}/berry-picker-tracker.git"
-cd berry-picker-tracker
+git clone "https://github.com/${ORGANIZATION}/berry-picker-tracker.git" frontend
+cd frontend
 chmod +x ./run.sh
 print_status "Frontend source code cloned"
 
