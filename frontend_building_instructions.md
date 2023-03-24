@@ -102,7 +102,7 @@ At the time of writing this, Berry Picker Tracker application has been placed in
     "submit": {
       "production": {
         "android": {
-          "serviceAccountKeyPath": "<keypath>
+          "serviceAccountKeyPath": <keypath>
         }
       }
     }
