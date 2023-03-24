@@ -2,13 +2,13 @@
 
 ### General structure
 
-Root component [App](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker/blob/main/src/app.tsx) uses `Main` component which is wrapped by:
+Root component [App](https://github.com/marjanpoimijat/berry-picker-tracker/blob/main/src/app.tsx) uses `Main` component which is wrapped by:
 
 - `NativeRouter` component from the [react-route-native](https://reactrouter.com/en/v6.3.0/api#nativerouter) to allow routing between application screens
 - `Provider` component from the [react-redux](https://react-redux.js.org/) for the state handling. Further information regarding the state handling can be found [here](#state-handling)
 - `PersistGate` component from the [redux-persist](https://github.com/rt2zz/redux-persist) to retrieve and save states persistently on a device.
 
-Primary purposes for the [Main](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker/blob/main/src/main.tsx) component are:
+Primary purposes for the [Main](https://github.com/marjanpoimijat/berry-picker-tracker/blob/main/src/main.tsx) component are:
 
 - Creates directory for custom map tile caching
 - Defines background locations task. Further information regarding background tasks can be found [here](#background-location-task)
@@ -52,9 +52,9 @@ Primary purposes for the [Main](https://github.com/hy-ohtu-syksy-22-bpt/berry-pi
 
 Application has three different screens:
 
-- [MapScreen](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker/blob/main/src/screens/map-screen.tsx)
-- [FindUserRouteScreen](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker/blob/main/src/screens/find-user-route-screen.tsx)
-- [SettingsScreen](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker/blob/main/src/screens/settings-screen.tsx)
+- [MapScreen](https://github.com/marjanpoimijat/berry-picker-tracker/blob/main/src/screens/map-screen.tsx)
+- [FindUserRouteScreen](https://github.com/marjanpoimijat/berry-picker-tracker/blob/main/src/screens/find-user-route-screen.tsx)
+- [SettingsScreen](https://github.com/marjanpoimijat/berry-picker-tracker/blob/main/src/screens/settings-screen.tsx)
 
 Primary purposes for the `MapScreen` are:
 
@@ -156,7 +156,7 @@ interface WaypointState {
 
 ### Background location task
 
-[Background location task](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker/blob/main/src/utils/location-tracking.ts) is performed by using [Expo TaskManager](https://docs.expo.dev/versions/latest/sdk/task-manager/). During the application launch background task will be defined and user is asked to allow both foreground and background location permissions.
+[Background location task](https://github.com/marjanpoimijat/berry-picker-tracker/blob/main/src/utils/location-tracking.ts) is performed by using [Expo TaskManager](https://docs.expo.dev/versions/latest/sdk/task-manager/). During the application launch background task will be defined and user is asked to allow both foreground and background location permissions.
 
 While berry picking event is active, background task keeps tracking users waypoints on a background even if the application has been closed. To be more precise, application can not be fully closed while background location task is running and devices statusbar shows the following notification to the user:
 
@@ -169,11 +169,11 @@ Background location task is closed when user ends the berry picking event. Backg
 
 ### Styles
 
-Application [styles](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker/blob/main/src/styles/index.ts) and [theme](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker/blob/main/src/styles/theme.ts) files are located at the `src/styles` -folder. Application colors and font sizes are can be changed through `theme` -file.
+Application [styles](https://github.com/marjanpoimijat/berry-picker-tracker/blob/main/src/styles/index.ts) and [theme](https://github.com/marjanpoimijat/berry-picker-tracker/blob/main/src/styles/theme.ts) files are located at the `src/styles` -folder. Application colors and font sizes are can be changed through `theme` -file.
 
 ### Requests
 
-Server [requests](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker/blob/main/src/requests.ts) performed in `src/requests.ts` -file. Backend address is passed via `baseUrl` which should defined at `.env` -file in format `URI=<backend-address>`. In build configuration `baseUrl` will be defined at [eas.json](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker/blob/main/eas.json) in format:
+Server [requests](https://github.com/marjanpoimijat/berry-picker-tracker/blob/main/src/requests.ts) performed in `src/requests.ts` -file. Backend address is passed via `baseUrl` which should defined at `.env` -file in format `URI=<backend-address>`. In build configuration `baseUrl` will be defined at [eas.json](https://github.com/marjanpoimijat/berry-picker-tracker/blob/main/eas.json) in format:
 
 ```
 "build": {
