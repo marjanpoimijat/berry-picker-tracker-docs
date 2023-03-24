@@ -24,15 +24,16 @@ $ echo 'export ANDROID_HOME="$HOME/Android/Sdk"' >> .bashrc
 ## Github Actions Workflow
 
 ### legacy-install-failure
-1. Jos kyseessä on uvtools-riippuvuus, käytä workflowssa pienempää versiota. Python 3.9 on toimiva (tammikuu 2023).
 
+If a problem occurs with the `uvtools` dependency, use an older version in the workflow. Python 3.9 should work (January 2023).
 
-## NPM yms.
+## Problems with dependencies
 
 ### Prototype Pollution in JSON5 via Parse Method
 
 ```
-json5  <1.0.2
+json5 <1.0.2
 Severity: high
 ```
-Kyseessä on vanhentunut versio *find-babel-config* -paketissa, joka on *babel-preset-expo* -paketin riippuvuuden riippuvuuden riippuvuus. Aiheesta on tehty pull request Expon github-repoon tammikuussa 2023. Asia korjautunee viim. Expo SDK:n versiossa 49 tai sitten ei. (Kirjoitettu 21.3.2023)
+
+This problem might occur when using an outdated version of the `find-babel-config` package, which is a sub-sub-sub-dependency of `babel-preset-expo`. A pull request has been opened in the Expo GitHub repository in January 2023. This issue may or may not get fixed with Expo SDK version 49. (21 March 2023).
