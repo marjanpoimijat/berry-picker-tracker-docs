@@ -1,17 +1,20 @@
-# How to communicate between frontend and backend server
-Shows two examples of how we can send and receive data from our frontend using HTML requests.
+# Communication between frontend and backend
 
-### Key functionality
-- `url`: Address to which we communicate with the server. This determines which values we need to send and in which format to get our requests through. See [backend main.py](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker-server/blob/main/src/main.py). Emulator local address: http://10.0.2.2:8000
+Let's look at two examples of how we can send and receive data from our frontend using HTTP requests.
+
+## Key functionality
+
+- `url`: Address to which we communicate with the server. This determines which values we need to send and in which format to get our requests through. See [backend main.py](https://github.com/hy-ohtu-syksy-22-bpt/berry-picker-tracker-server/blob/main/src/main.py). Emulator local address: http://10.0.2.2:8008
 - `userID`: Usually needed to get the data to the right address.
-- `settings`: HTML request configuration.
+- `settings`: HTTP request configuration.
 - `body: JSON.stringify()`: (Currently using only headers to send our data) Puts our data to the correct format for our server to use.
-- `try{} catch{}`: If there is and error with our HTML request we can see it.
+- `try{} catch{}`: If there is and error with our HTTP request we can see it.
 - `async await`: React Native's way to stop a task until a response.
-- `fetch()`: React Native's way to handle HTML requests. See [React Native Networking documentation](https://reactnative.dev/docs/network)
+- `fetch()`: React Native's way to handle HTTP requests. See [React Native Networking documentation](https://reactnative.dev/docs/network)
 
-### POST example:
-```jsx
+## POST example
+
+```typescript
 const postCoordsToServer = async ({userID, coordinate}) => {
 	const url = `http://berry-picker-tracker.cs.helsinki.fi/create-waypoint`;
 	const settings = {
@@ -38,9 +41,9 @@ const postCoordsToServer = async ({userID, coordinate}) => {
 
 ```
 
+## GET example
 
-### GET example:
-```jsx
+```typescript
 const getCoordsFromServer = async (userID) => {
 	const url = `http://berry-picker-tracker.cs.helsinki.fi/get-user-routes/{userID}`;
 	const settings = {
