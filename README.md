@@ -34,8 +34,8 @@ For more extensive installation instructions, check [frontend](https://github.co
 
 ## Repositories
 
-- [Front-end repository](https://github.com/marjanpoimijat/berry-picker-tracker)
-- [Back-end repository](https://github.com/marjanpoimijat/berry-picker-tracker-server)
+- [Frontend repository](https://github.com/marjanpoimijat/berry-picker-tracker)
+- [Backend repository](https://github.com/marjanpoimijat/berry-picker-tracker-server)
 
 ## Database
 
@@ -46,8 +46,8 @@ For more extensive installation instructions, check [frontend](https://github.co
 
 ### Licences
 
-- [Front end licenses](https://github.com/marjanpoimijat/berry-picker-tracker/tree/main/licenses)
-- [Back end licenses](https://github.com/marjanpoimijat/berry-picker-tracker-server/tree/main/licenses)
+- [Frontend licenses](https://github.com/marjanpoimijat/berry-picker-tracker/tree/main/licenses)
+- [Backend licenses](https://github.com/marjanpoimijat/berry-picker-tracker-server/tree/main/licenses)
 
 ### Privacy Policy
 
