@@ -1,4 +1,7 @@
-# Project implementation - frontend
+# Implementation
+
+> **Note**  
+> This document is outdated.
 
 ### General structure
 
