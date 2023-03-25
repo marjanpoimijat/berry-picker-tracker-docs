@@ -6,6 +6,11 @@
     title="Berry Picker Tracker logo"
     width=200
   />
+  <h1>
+    <a href="https://github.com/marjanpoimijat">
+      Berry Picker Tracker
+    </a>
+  </h1>
 </div>
 
 # Documentation
