@@ -36,7 +36,7 @@ Software requirements:
 
 ### Installation Script
 
-A shell script has been written to make the installation process as easy as possible. The script is named [install.sh](install.sh) and can be found at the root of this repository. Run the script and follow the instructions. The script should take care of everything else automatically, but it will ask you to enter some credentials to be stored as environment variables.
+A shell script has been written to make the installation process as easy as possible. The script is named [install.sh](docs/scripts/install.sh) and can be found in this repository. Run the script and follow the instructions. The script should take care of everything else automatically, but it will ask you to enter some credentials to be stored as environment variables.
 
 ```bash
 # Move to a directory where you wish to install the application
@@ -44,7 +44,7 @@ A shell script has been written to make the installation process as easy as poss
 $ cd git
 
 # Get the script
-$ wget https://raw.githubusercontent.com/marjanpoimijat/berry-picker-tracker-docs/main/install.sh
+$ wget https://raw.githubusercontent.com/marjanpoimijat/berry-picker-tracker-docs/main/docs/scripts/install.sh
 
 # Make it executable
 $ chmod +x install.sh
