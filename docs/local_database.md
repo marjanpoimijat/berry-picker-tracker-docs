@@ -1,4 +1,4 @@
-# Connecting to a database locally
+# Connecting to a Database Locally
 
 This application uses a PostgreSQL database. Make sure that it is installed with command:
 
@@ -18,7 +18,7 @@ $ sudo apt-get install python3-dev
 $ sudo apt-get install libpq-dev
 ```
 
-## After installing
+## After Installing
 
 After you're sure PostgreSQL is installed you can check database status with command:
 
@@ -32,7 +32,7 @@ You can open PostgreSQL terminal with command:
 $ sudo -u postgres psql
 ```
 
-### Setting up database
+### Setting Up Database
 
 In the psql terminal, create a new database named *bpt*.
 
@@ -40,7 +40,7 @@ In the psql terminal, create a new database named *bpt*.
 CREATE DATABASE bpt;
 ```
 
-### Setting up environment variables
+### Setting Up Environment Variables
 
 Create a new file named `.env` in the same folder as the backend root directory and add the next line.
 

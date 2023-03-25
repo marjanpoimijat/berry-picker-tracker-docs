@@ -1,6 +1,4 @@
-# Building instructions using EAS Build
-
-## General information
+# Building Instructions Using EAS Build
 
 More detailed information can be found in the official [Expo Documentation](https://docs.expo.dev/build/introduction/).
 
@@ -78,9 +76,9 @@ Each of the profiles needs to have the backend address defined as an environment
 > **Note**  
 > Build and version numbering should be updated after each build submit from the `app.config.js`. Further information about build configuration can be found in the [Expo documentation](https://docs.expo.dev/build/eas-json/).
 
-## Submiting builds
+## Submiting Builds
 
-### Android APK build
+### Android APK Build
 
 To build and install the Android APK build, run the command:
 

@@ -1,8 +1,8 @@
-# Communication between frontend and backend
+# Frontend-backend Communication
 
 Let's look at two examples of how we can send and receive data from our frontend using HTTP requests.
 
-## Key functionality
+## Key Functionality
 
 - `url`: Address to which we communicate with the server. This determines which values we need to send and in which format to get our requests through. See [backend main.py](https://github.com/marjanpoimijat/berry-picker-tracker-server/blob/main/src/main.py). Emulator local address: http://10.0.2.2:8008
 - `userID`: Usually needed to get the data to the right address.
@@ -12,7 +12,7 @@ Let's look at two examples of how we can send and receive data from our frontend
 - `async await`: React Native's way to stop a task until a response.
 - `fetch()`: React Native's way to handle HTTP requests. See [React Native Networking documentation](https://reactnative.dev/docs/network)
 
-## POST example
+## POST Example
 
 ```typescript
 const postCoordsToServer = async ({userID, coordinate}) => {
@@ -38,10 +38,9 @@ const postCoordsToServer = async ({userID, coordinate}) => {
 		console.log(error);
 	}
 };
-
 ```
 
-## GET example
+## GET Example
 
 ```typescript
 const getCoordsFromServer = async (userID) => {
@@ -62,5 +61,4 @@ const getCoordsFromServer = async (userID) => {
 		console.log(error);
 	}
 };
-
 ```

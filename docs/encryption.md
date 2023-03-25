@@ -2,7 +2,7 @@
 
 Berry Picker Tracker uses 128-bit AES-CBC encryption. Keys are stored using native secure storage solutions of Android and iOS.
 
-## Short glossary
+## Short Glossary
 
 - **Initialization vector, iv**
   - A unique binary sequence used to ensure that the output from the encryption method is different every time even when encrypting the same plaintext data with the same key. A new one is created for every encryption.
@@ -11,7 +11,7 @@ Berry Picker Tracker uses 128-bit AES-CBC encryption. Keys are stored using nati
 - **WordArray**
   - A custom class of the CryptoES library. See [CryptoES](#cryptoes) for details.
 
-## How it works?
+## How It Works?
 
 ### expo-crypto
 

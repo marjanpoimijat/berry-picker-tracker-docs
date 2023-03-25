@@ -1,4 +1,4 @@
-# CI/CD pipeline
+# CI/CD Pipeline
 
 <!--
 See the official documentation for syntax

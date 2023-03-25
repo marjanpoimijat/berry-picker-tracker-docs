@@ -3,7 +3,7 @@
 > **Note**  
 > This document is outdated.
 
-### General structure
+### General Structure
 
 Root component [App](https://github.com/marjanpoimijat/berry-picker-tracker/blob/main/src/app.tsx) uses `Main` component which is wrapped by:
 
@@ -80,7 +80,7 @@ Primary purposes for the `SettingsScreen` are:
 - Several links to the legal information
 - Download link to map legends.
 
-### State handling
+### State Handling
 
 Following libraries are used in an application for the state handling:
 

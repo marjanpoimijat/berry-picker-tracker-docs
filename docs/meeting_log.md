@@ -1,4 +1,4 @@
-# Meeting log
+# Meeting Log
 
 Keeping track of who has done what during meetings with the customer.
 

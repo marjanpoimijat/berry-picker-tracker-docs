@@ -1,4 +1,4 @@
-# Translation guide
+# Translation Guide
 
 ## Overview
 
@@ -10,7 +10,7 @@ The following languages are supported:
 - 🇫🇮 suomi (Finnish)
 - 🇸🇪 svenska (Swedish)
 
-## Adding support for a new language
+## Adding Support for a New Language
 
 All translations are stored in the file [translations.json](https://github.com/marjanpoimijat/berry-picker-tracker/blob/main/src/languages/translations.json). Support for new languages can be done by editing this file. The data is stored in the JSON format where the key is the name of the string as it appears in English in the user interface. Each key stores another object of key-value pairs, where the key is a [language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) and the value is the corresponding translation of the original English string.
 
@@ -39,7 +39,7 @@ To add support for a new language, you must append all of these objects stored i
 },
 ```
 
-### Appending the Language type
+### Appending the Language Type
 
 To add support for a new language, the Languag type must also be appended.
 
@@ -52,7 +52,7 @@ export enum Language {
 }
 ```
 
-### Appending the language options in the Settings view
+### Appending the Language Options in the Settings View
 
 All new languages must also be added as an option to be selected in the Settings view.
 

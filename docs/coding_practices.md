@@ -34,11 +34,11 @@ Use `kebab-case` for file names and `camelCase` for variables. Use `PascalCase` 
 
 Use `snake_case` for both file names and variables.
 
-## Project language
+## Project Language
 
 For all source code and documentation, use **English**. The user interface of the application is available in multiple languages but all variable and file names and so on should be in the same language, English.
 
-## Code documentation
+## Code Documentation
 
 ### Frontend
 
@@ -70,7 +70,7 @@ def create_user(user: schemas.UserCreate, db: Session):
     return db_user
 ```
 
-## File structure
+## File Structure
 
 ### Frontend
 
