@@ -1,11 +1,13 @@
 <div align="center">
-  <img
-    alt="Berry Picker Tracker logo"
-    height=200
-    src="docs/images/logo.png"
-    title="Berry Picker Tracker logo"
-    width=200
-  />
+  <a href="https://github.com/marjanpoimijat">
+    <img
+        alt="Berry Picker Tracker logo"
+        height=200
+        src="docs/images/logo.png"
+        title="Berry Picker Tracker logo"
+        width=200
+    />
+  </a>
   <h1>
     <a href="https://github.com/marjanpoimijat">
       Berry Picker Tracker
