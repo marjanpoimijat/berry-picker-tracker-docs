@@ -95,7 +95,7 @@ read choice
 
 while true; do
     if [[ "$choice" = "y" ]]; then
-        echo "URI=http://10.0.2.2:8000" >> .env
+        echo "URI=http://10.0.2.2:8008" >> .env
         print_status "Backend URI set to the emulator address"
         break
     elif [[ "$choice" = "n" ]]; then
