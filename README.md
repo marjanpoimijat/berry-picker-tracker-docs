@@ -2,10 +2,10 @@
   <a href="https://github.com/marjanpoimijat">
     <img
         alt="Berry Picker Tracker logo"
-        height=200
+        height=150
         src="docs/images/logo.png"
         title="Berry Picker Tracker logo"
-        width=200
+        width=150
     />
   </a>
   <h1>
