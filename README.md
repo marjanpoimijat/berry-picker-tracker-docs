@@ -73,6 +73,8 @@ $ ./install.sh
 
 - [Frontend licenses](https://github.com/marjanpoimijat/berry-picker-tracker/tree/main/licenses)
 - [Backend licenses](https://github.com/marjanpoimijat/berry-picker-tracker-server/tree/main/licenses)
+- [Documentation license](LICENSE.md)
+- [Demonstration license](https://github.com/marjanpoimijat/marjanpoimijat.github.io/blob/main/LICENSE)
 
 ### Privacy Policy
 
