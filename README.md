@@ -53,24 +53,38 @@ $ chmod +x install.sh
 $ ./install.sh
 ```
 
-## General Project Information
+## Technical
+
+- [Building instructions, frontend](docs/frontend_building_instructions.md)
+- [CI/CD Pipeline](docs/cicd_pipeline.md)
+- [Encryption](docs/encryption.md)
+- [Features](docs/features.md)
+- [Frontend-backend communication](docs/frontend_backend_requests.md)
+- [Implementation](docs/implementation.md) (outdated)
+- [Production & Staging](docs/production_and_staging.md)
+- [Technologies](docs/technologies.md)
+- [Translation Guide](docs/translations.md)
+- [Troubleshooting](docs/troubleshooting.md)
+- [User Level Planning](docs/user_level_planning.md) (outdated)
+- [Virtual Machine Connection](docs/virtual_machine_connection.md) (outdated)
+
+## Scrum
 
 - [Coding Practices](docs/coding_practices.md)
 - [Definition of Done](docs/definition_of_done.md)
-- [Building instructions - frontend](docs/frontend_building_instructions.md)
-- [Implementation - frontend](docs/implementation.md) [Outdated]
-- [Technologies](docs/technologies.md)
-- [Work Hours](https://helsinkifi-my.sharepoint.com/:x:/g/personal/kajy_ad_helsinki_fi/EVqaF5z1-9pBt4fEqOvs6E0B5plAijWjgKxFrGQQqV2kSg?e=Iay2EU) [requires University of Helsinki login]
+- [Meeting Log](docs/meeting_log.md)
+- [Product Backlog](https://github.com/orgs/marjanpoimijat/projects/3)
+- [Sprint Backlogs](https://github.com/orgs/marjanpoimijat/projects)
+- [Work Hours](https://helsinkifi-my.sharepoint.com/:x:/g/personal/kajy_ad_helsinki_fi/EVqaF5z1-9pBt4fEqOvs6E0B5plAijWjgKxFrGQQqV2kSg?e=Iay2EU) (requires University of Helsinki login)
+## Database
+
+- [Database schema](docs/images/bpt_schema.png)
+- [Connecting to a database locally](docs/local_database.md)
 
 ## Repositories
 
 - [Frontend](https://github.com/marjanpoimijat/berry-picker-tracker)
 - [Backend](https://github.com/marjanpoimijat/berry-picker-tracker-server)
-
-## Database
-
-- [Database schema](docs/images/bpt_schema.png)
-- [Connecting to a database locally](docs/local_database.md)
 
 ## Legal Information
 
