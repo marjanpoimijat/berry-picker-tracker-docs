@@ -67,6 +67,7 @@ $ ./install.sh
 - [Technologies](docs/technologies.md)
 - [Translation Guide](docs/translations.md)
 - [Troubleshooting](docs/troubleshooting.md)
+- [Known Issues of Frontend](docs/known_issues_frontend.md)
 - [User Level Planning](docs/user_level_planning.md) (outdated)
 - [Virtual Machine Connection](docs/virtual_machine_connection.md) (outdated)
 
