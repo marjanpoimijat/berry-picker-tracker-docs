@@ -63,6 +63,7 @@ $ ./install.sh
 - [Features](docs/features.md)
 - [Frontend-backend communication](docs/frontend_backend_requests.md)
 - [Implementation](docs/implementation.md) (outdated)
+- [Installation](docs/installation.md) (to be written)
 - [Known Issues](docs/known_issues.md)
 - [Production & Staging](docs/production_and_staging.md)
 - [Technologies](docs/technologies.md)
