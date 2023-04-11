@@ -72,6 +72,7 @@ $ ./install.sh
 - [User Level Planning](docs/user_level_planning.md) (outdated)
 - [User Manual](docs/manual.md) (to be written)
 - [Virtual Machine Connection](docs/virtual_machine_connection.md) (outdated)
+- [AWS Deployment](https://github.com/marjanpoimijat/berry-picker-tracker-docs/blob/main/AWS_Deployment.md)
 
 ## Scrum
 
