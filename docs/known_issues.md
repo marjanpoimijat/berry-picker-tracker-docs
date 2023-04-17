@@ -6,10 +6,6 @@
 
 - Requires Google Maps API key to use in production.
 
-### Styled-components dependency
-
-- Is giving a warning on conflicting peer dependency in react-native-settings-screen.
-
 ### Deleting map tile cache
 
 - Expo-file-system gives a certain path to the cache folder (tileCacheDirectory), which is defined in constants.ts. This path is used in functions that create or delete the cache folder in file-system.ts. For an unknown reason, these functions are using a different path than what is given to them. A temporal solution to this problem was to hard code the real path (which is different from tileCacheDirectory) into the react-native-maps MapView in MapViewContainer.tsx.
