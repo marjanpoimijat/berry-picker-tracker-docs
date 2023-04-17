@@ -2,11 +2,6 @@
 
 ## Frontend
 
-### React Native NetInfo
-
-- Doesn't work with Android dual sim phones.
-- Can be unreliable at times telling which cellular generation is in use.
-
 ### React Native Maps
 
 - Requires Google Maps API key to use in production.
