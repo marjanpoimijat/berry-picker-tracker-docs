@@ -2,7 +2,7 @@
 
 ## Overview
 
-The application supports localization. The language of the user interface can be changed. In the *Settings* view, there is an option for changing the language.
+The application supports localization. The language of the user interface can be changed. In the _Settings_ view, there is an option for changing the language.
 
 The following languages are supported:
 
@@ -28,7 +28,7 @@ Consider the example code snippet below.
 // ...
 ```
 
-To add support for a new language, you must append all of these objects stored in *translations.json*. For example, here the original string is being translated into Dutch.
+To add support for a new language, you must append all of these objects stored in _translations.json_. For example, here the original string is being translated into Dutch.
 
 ```diff
 "Original string": {
@@ -41,7 +41,7 @@ To add support for a new language, you must append all of these objects stored i
 
 ### Appending the Language Type
 
-To add support for a new language, the Languag type must also be appended.
+To add support for a new language, the Language type must also be appended.
 
 ```diff
 export enum Language {

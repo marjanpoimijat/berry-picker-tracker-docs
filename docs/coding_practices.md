@@ -38,6 +38,12 @@ Use `snake_case` for both file names and variables.
 
 For all source code and documentation, use **English**. The user interface of the application is available in multiple languages but all variable and file names and so on should be in the same language, English.
 
+## Dependencies
+
+### Frontend
+
+### Backend
+
 ## Code Documentation
 
 ### Frontend
@@ -52,7 +58,9 @@ Use [JSDoc](https://jsdoc.app) to document TypeScript code. Example below.
  * @returns {string} The formatted latitude string with a direction indicator.
  */
 export const parseLatitude = (latitude: number): string => {
-	return latitude > 0 ? `${formatCoordinate(latitude)} °N` : `${formatCoordinate(latitude)} °S`;
+  return latitude > 0
+    ? `${formatCoordinate(latitude)} °N`
+    : `${formatCoordinate(latitude)} °S`;
 };
 ```
 

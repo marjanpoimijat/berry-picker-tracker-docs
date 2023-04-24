@@ -1,14 +1,14 @@
 # Features
 
-This document goes over the features of the application. The mobile application consists of two main *views* or *screens*.
+This document goes over the features of the application. The mobile application consists of two main _views_ or _screens_.
 
 ## Map View
 
-The main view of the application is the *Map view*. This view contains all the main functionality of the application. It consists of a coordinate bar, a map and various navigation or functionality buttons.
+The main view of the application is the _Map view_. This view contains all the main functionality of the application. It consists of a coordinate bar, a map and various navigation or functionality buttons.
 
 ### Coordinate Bar
 
-The coordinate bar displays the user's current location using the [Geographic coordinate system](https://en.wikipedia.org/wiki/Geographic_coordinate_system). The coordinate bar consists of two separate values: the **latitude**, i.e. the *North-South* position and the **longitude**, i.e. the *East-West* position. Both values are rounded to five decimals.
+The coordinate bar displays the user's current location using the [Geographic coordinate system](https://en.wikipedia.org/wiki/Geographic_coordinate_system). The coordinate bar consists of two separate values: the **latitude**, i.e. the _North-South_ position and the **longitude**, i.e. the _East-West_ position. Both values are rounded to five decimals.
 
 For example, a person standing at the [Senate Square](https://en.wikipedia.org/wiki/Senate_Square,_Helsinki) in Helsinki would see their location displayed as `60.16948 °N, 24.95228 °E`.
 
@@ -26,9 +26,9 @@ Tapping the `Routes` button brings up route controls. Tapping `Start route` will
 
 Other users can be tracked by asking them to share their link via a messaging application, e.g. WhatsApp or Telegram. Tracked users will show up in the the Tracking menu, which can be opened by tapping the `Tracking` button. The tracking menu contains a list of tracked users and their names and corresponding colors. Each user has three buttons associated with them:
 
-- The *eye* button: shows or hides the user's current location
-- The *route* button: shows or hids the user's current route
-- The *trash can* button: deletes a user from the tracking menu
+- The _eye_ button: shows or hides the user's current location
+- The _route_ button: shows or hids the user's current route
+- The _trash can_ button: deletes a user from the tracking menu
 
 The tracking menu also contains master toggle buttons to perform the aforementioned operations on all users on the list.
 
@@ -47,14 +47,15 @@ Various waypoint frequencies can be tweaked to save battery life.
 ### Map
 
 The map type can be changes. The application supports four different maps:
-- Base map (National Land Survey of Finland)
+
+- Topographic Map (National Land Survey of Finland)
 - OpenStreepMap
 - Plain Map (NLS)
 - Aerial image (NLS)
 
 ### User Information
 
-The user can reset their UserID here or set a *username* for themself. This username will be displayed on other users' tracking menu after sharing their information.
+The user can reset their UserID here or set a _username_ for themself. This username will be displayed on other users' tracking menu after sharing their information.
 
 ### Legal Information
 
