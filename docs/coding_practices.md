@@ -42,7 +42,48 @@ For all source code and documentation, use **English**. The user interface of th
 
 ### Frontend
 
+The frontend's dependencies are managed with [npm](https://docs.npmjs.com/about-npm). We **very** strongly recommend using [nvm](https://github.com/nvm-sh/nvm) to install `node` and `npm`. (In case of issues with node, see [here](/docs/troubleshooting.md#npm-start-leads-to-syntaxerror)).
+
+`package.json` contains necessary information about project, including its dependencies. `package-lock.json` locks which versions of dependencies should be installed with the project. This ensures that project versions always install with the same versions of dependencies for all users. See [this blogpost](https://www.knowledgehut.com/blog/web-development/package-json-vs-package-lock-json) for a more in-depth explanation.
+
+Running `npm update` does not automatically update `package.json`. You can do this by running
+
+```shell
+npm update --save
+# Or update all dependency versions to the latest with
+npx ncu -u
+```
+
+`npx` is used to run [commands of an npm package](https://docs.npmjs.com/cli/v9/commands/npx). `package-lock.json` is only updated when `npm install` is run.
+
+By default `npm update` does not update packages to new major versions ([more info on semantic versions](https://semver.org/)). Major updates can easily be done via [npm-check-update](https://github.com/raineorshine/npm-check-updates) dev-only dependency.
+
+```shell
+# To check available updates
+npx npm-check-updates
+# or
+npx ncu
+
+# To upgrade package.json
+npx ncu -u $package_name
+
+# To install updates
+npm install
+```
+
 ### Backend
+
+[`Pyenv`](https://github.com/pyenv/pyenv) is used for virtual environment management. The dependencies are managed and installed using [`pip`](https://pypi.org/project/pip/) and its associated file `requirements.txt`.
+
+## Environment variables
+
+### Frontend
+
+**TO DO**
+
+### Backend
+
+The enviroment variables should be located in a `.env` file located in the project's root directory. The [python-dotenv](https://pypi.org/project/python-dotenv/) dependency handles parsing them into the program. `.env` files should never be publicly available -> it's included in the `.gitignore` file for a reason.
 
 ## Code Documentation
 

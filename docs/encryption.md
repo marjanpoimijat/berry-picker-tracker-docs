@@ -2,6 +2,12 @@
 
 Berry Picker Tracker uses 128-bit AES-CBC encryption. Keys are stored using native secure storage solutions of Android and iOS.
 
+## Important!
+
+The current implementation uses Base64 encoding because the UTF-8 encoding in CryptoES **is broken**.
+
+The methods named `encrypt` and `decrypt` are only used for testing and should be deleted after encryption has been fully implemented. The actual encryption and decryption methods are `encryptWaypoint` and `decryptWaypoint` respectively.
+
 ## Short Glossary
 
 - **Initialization vector, iv**
@@ -18,7 +24,7 @@ Berry Picker Tracker uses 128-bit AES-CBC encryption. Keys are stored using nati
 Both keys and single-use initialization vectors (IV) are generated using the [expo-crypto](https://docs.expo.dev/versions/latest/sdk/crypto/) API because its number generation uses the native generators of Android and iOS.
 
 ```typescript
-Crypto.getRandomBytes(16)
+Crypto.getRandomBytes(16);
 ```
 
 This returns a JavaScript [Uint8Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array) object, a type of [TypeArray](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray). Used for both key and initialization vector creation. The length is 16, because 16-bytes = 128-bit.
@@ -32,7 +38,7 @@ An [API](https://docs.expo.dev/versions/v48.0.0/sdk/securestore/) to store key-v
 A TypeScript cryptography library using the same API as [CryptoJS](https://github.com/brix/crypto-js).
 
 ```typescript
-CryptoES.lib.WordArray.create(TypedArray)
+CryptoES.lib.WordArray.create(TypedArray);
 ```
 
 This method converts the given TypedArray (for example, the Uint8Array returned by expo-crypto) into a WordArray object. This is done because the CryptoES library only uses either Strings or WordArrays for encryption and decryption.
@@ -40,18 +46,26 @@ This method converts the given TypedArray (for example, the Uint8Array returned 
 WordArray is a custom class of CryptoES, it represents an array of 32-bit words (= 32-bit unsigned integers). The class is used for more optimal performance since modern processors use either 32- or 64-bit word lengths. For more details, see [this StackOverflow answer](https://stackoverflow.com/a/58525779).
 
 ```typescript
-CryptoES.enc.Base64.stringify(WordArray)
-CryptoES.enc.Base64.parse(string)
+CryptoES.enc.Base64.stringify(WordArray);
+CryptoES.enc.Base64.parse(string);
 ```
 
 These methods are used to convert a WordArray object to String and vice versa. The `stringify()`method encodes the bits contained in the WordArray to string using the given [character encoding](https://en.wikipedia.org/wiki/Character_encoding) model, in this case Base64. In reverse, the `parse()` method converts a string to a WordArray object.
 
 ```typescript
-CryptoES.AES.encrypt("plaintext data", key, {iv: iv})
-CryptoES.AES.decrypt("ciphertext", key, {iv: iv})
+CryptoES.AES.encrypt("plaintext data", key, { iv: iv });
+CryptoES.AES.decrypt("ciphertext", key, { iv: iv });
 ```
 
 These are the actual encryption and decryption methods. For more info about the Advanced Encryption Standard (AES), click [here](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) and for more about Cipher block chaingin (CBC), click [here](<https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#Cipher_block_chaining_(CBC)>).
+
+### Process
+
+The `encryptWaypoint()` method is passed a Waypoint object and the user's encryption key. Currently the method converts the longitute and latitude data of the Waypoint to string format and encrypts them using the user's encryption key and unique initialization vectors for both. The encrypted data is concatenated with the iv in string format and an EncryptedWaypoint object is created. The method returns the EncryptedWaypoint object that is then sent to the server.
+
+The `decryptWaypoint()` method is passed an EncryptedWaypoint object and the encryption key of the tracked user (stored using expo-secure-store). The encrypted data string is first split into ciphertext and iv parts. The ciphertext is then decrypted using the iv and the passed encryption key. The decrypted data is then parsed back into a float and a Waypoint object is created and returned by the method.
+
+For how the encryption implementation should be updated/continued, see [To-do list for future developers]().
 
 ## Flowcharts
 
