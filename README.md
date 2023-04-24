@@ -73,6 +73,7 @@ $ ./install.sh
 - [User Manual](docs/manual.md) (to be written)
 - [Virtual Machine Connection](docs/virtual_machine_connection.md) (outdated)
 - [AWS Deployment](https://github.com/marjanpoimijat/berry-picker-tracker-docs/blob/main/AWS_Deployment.md)
+- [To-do list for future developers](https://github.com/marjanpoimijat/berry-picker-tracker-docs/blob/main/docs/To-do_list_for_future_developers.md)
 
 ## Scrum
 
