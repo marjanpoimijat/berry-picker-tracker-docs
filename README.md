@@ -57,6 +57,7 @@ $ ./install.sh
 
 ## Technical
 
+- [Instructions for new developers](https://github.com/marjanpoimijat/berry-picker-tracker-docs/blob/main/docs/Instructions-for-new-developers.md)
 - [Building instructions, frontend](docs/frontend_building_instructions.md)
 - [CI/CD Pipeline](docs/cicd_pipeline.md)
 - [Encryption](docs/encryption.md)
