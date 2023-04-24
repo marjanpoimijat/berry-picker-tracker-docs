@@ -54,7 +54,7 @@ npm update --save
 npx ncu -u
 ```
 
-`npx` is used to run [commands of an npm package](https://docs.npmjs.com/cli/v9/commands/npx). `package-lock.json` is only updated when `npm install` is run.
+`npx` is used to run [commands of an npm package](https://docs.npmjs.com/cli/v9/commands/npx). **Note:** `package-lock.json` is only updated when `npm install` is run.
 
 By default `npm update` does not update packages to new major versions ([more info on semantic versions](https://semver.org/)). Major updates can easily be done via [npm-check-update](https://github.com/raineorshine/npm-check-updates) dev-only dependency.
 
@@ -149,6 +149,20 @@ The frontend repository has the roughly the following structure. Store all image
 
 ### Backend
 
-To be added.
+```python
+├── docker
+│   └── # Docker configuration
+├── licenses
+│   └── # license docs
+├── src
+│   ├── service
+│   │   └── # database methods
+│   ├── tests
+│   │   └── # tests
+│   ├── utilities
+│   │   └── # database utilities
+│   └── # main.py
+└── # configs etc.
+```
 
-<!-- Improve and document the backend file structure. -->
+<!-- Improve the backend file structure documentation. -->
