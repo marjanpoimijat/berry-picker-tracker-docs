@@ -12,6 +12,26 @@
 
 ## Encryption
 
+- Finish frontend encrypt/decrypt methods and refactor database to match [the planned functionality](/docs/database.md#what-the-schema-should-be-refactored-to)
+
+The current library in use is [CryptoES](https://github.com/entronad/crypto-es) which uses the same API as [CryptoJS](https://github.com/brix/crypto-js). This is not the best possible choice, however the choices of cryptography libraries that work with both react-native and Expo are quite limited as of writing (May 2023). Generally the use of high-level cryptography libraries would be preferred and the state of compability of the libraries listed below should be checked periodically.
+
+### Possible libraries to switch to
+
+- [React-native-libsodium](https://github.com/serenity-kit/react-native-libsodium)
+
+  - React Native bindings to the [Libsodium](https://doc.libsodium.org/) cryptography library
+  - Lacking Android support as of May 2023
+
+- [Themis](https://docs.cossacklabs.com/themis/)
+
+  - Has React Native wrappers
+  - Is not compatible with Expo as of May 2023
+
+- [Other libsodium wrappers](https://doc.libsodium.org/bindings_for_other_languages)
+  - Libsodium has wrappers for both pure JavaScript and NodeJS
+  - Whether or not these would be usable has not been looked into
+
 ## Route sharing
 
 - User can pause an active route
