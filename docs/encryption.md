@@ -65,7 +65,7 @@ The `encryptWaypoint()` method is passed a Waypoint object and the user's encryp
 
 The `decryptWaypoint()` method is passed an EncryptedWaypoint object and the encryption key of the tracked user (stored using expo-secure-store). The encrypted data string is first split into ciphertext and iv parts. The ciphertext is then decrypted using the iv and the passed encryption key. The decrypted data is then parsed back into a float and a Waypoint object is created and returned by the method.
 
-For how the encryption implementation should be updated/continued, see [To-do list for future developers]().
+For how the encryption implementation should be updated/continued, see [To-do list for future developers](/docs/To-do_list_for_future_developers.md#encryption).
 
 ## Flowcharts
 
