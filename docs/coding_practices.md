@@ -178,3 +178,16 @@ The `docker` directory contains the files needed for both staging and production
 │   └── # main.py
 └── # configs etc.
 ```
+
+## Github
+
+### Project start
+
+1. Create a [new organization](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch) for your project
+2. [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the project repositories to your organization
+
+### Tips
+
+- Github projects is nice for backlogs
+- At the start of a new sprint/during sprint planning **go through opened Github issues and mark them resolved** if they were done in the last sprint
+- A commit can have multiple authors. [How to add co-authors](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors)
