@@ -20,9 +20,17 @@ After commiting changes, [lint-staged](https://github.com/okonet/lint-staged) wi
 
 ### Backend
 
-The Python code in the backend should follow the [PEP8](https://peps.python.org/pep-0008). For linting, [pylint](https://pypi.org/project/pylint) is used.
+The Python code in the backend should follow the [PEP8](https://peps.python.org/pep-0008). For linting, [pylint](https://pypi.org/project/pylint) is used. The pylint configurations are stored in `.pylintrc`.
 
-<!-- How can the linter be run in the backend? -->
+Run the linter:
+
+```shell
+# Start the virtual env if needed
+source ./.venv/bin.activate
+
+#Run linter
+pylint src
+```
 
 ## Naming
 
@@ -79,7 +87,13 @@ npm install
 
 ### Frontend
 
-**TO DO**
+The environment variables should be located in an `.env` file located in the project's root folder. The `app.config.js` file used by Expo for [app configuration](https://docs.expo.dev/workflow/configuration/) contains the field
+
+```javascript
+uri: process.env.URI,
+```
+
+that reads the backend's address from the `.env` file. If the configuration is invalid, the backend's address defaults to the `baseURL` configured in `constants.ts`. Remember to keep the `.env` file listed in `.gitignore`!
 
 ### Backend
 
@@ -135,8 +149,6 @@ The frontend repository has the roughly the following structure. Store all image
 │   │   └── // language and localization related files
 │   ├── reducers
 │   │   └── // React Redux
-│   ├── screens
-│   │   └── // React Native screens
 │   ├── styles
 │   │   └── // styling, css rules etc.
 │   ├── types
@@ -148,6 +160,8 @@ The frontend repository has the roughly the following structure. Store all image
 ```
 
 ### Backend
+
+The `docker` directory contains the files needed for both staging and production deployments. The `utilities` directory contains files used for database creation and data validation while the `service` directory contains code for database methods. Routes are defined in `main.py`. Feel free to refactor everything if needed.
 
 ```python
 ├── docker
@@ -164,5 +178,3 @@ The frontend repository has the roughly the following structure. Store all image
 │   └── # main.py
 └── # configs etc.
 ```
-
-<!-- Improve the backend file structure documentation. -->
