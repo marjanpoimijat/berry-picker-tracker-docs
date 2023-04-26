@@ -73,7 +73,6 @@ $ ./install.sh
 - [Translation Guide](docs/translations.md)
 - [Troubleshooting](docs/troubleshooting.md)
 - [User Level Planning](docs/user_level_planning.md) (outdated)
-- [User Manual](docs/manual.md) (to be written)
 - [Virtual Machine Connection](docs/virtual_machine_connection.md) (outdated)
 
 ## Scrum
