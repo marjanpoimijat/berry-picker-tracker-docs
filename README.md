@@ -57,24 +57,24 @@ $ ./install.sh
 
 ## Technical
 
-- [Instructions for new developers](https://github.com/marjanpoimijat/berry-picker-tracker-docs/blob/main/docs/Instructions-for-new-developers.md)
+- [AWS Deployment](docs/aws_deployment.md)
 - [Building instructions, frontend](docs/frontend_building_instructions.md)
 - [CI/CD Pipeline](docs/cicd_pipeline.md)
 - [Encryption](docs/encryption.md)
 - [Features](docs/features.md)
 - [Frontend-backend communication](docs/frontend_backend_requests.md)
 - [Implementation](docs/implementation.md) (outdated)
+- [Instructions for new developers](docs/instructions_for_new_developers.md)
 - [Installation](docs/installation.md) (to be written)
 - [Known Issues](docs/known_issues.md)
 - [Production & Staging](docs/production_and_staging.md)
 - [Technologies](docs/technologies.md)
+- [Todo list for future developers](docs/todo_for_future_developers.md)
 - [Translation Guide](docs/translations.md)
 - [Troubleshooting](docs/troubleshooting.md)
 - [User Level Planning](docs/user_level_planning.md) (outdated)
 - [User Manual](docs/manual.md) (to be written)
 - [Virtual Machine Connection](docs/virtual_machine_connection.md) (outdated)
-- [AWS Deployment](https://github.com/marjanpoimijat/berry-picker-tracker-docs/blob/main/AWS_Deployment.md)
-- [To-do list for future developers](https://github.com/marjanpoimijat/berry-picker-tracker-docs/blob/main/docs/To-do_list_for_future_developers.md)
 
 ## Scrum
 
@@ -84,6 +84,7 @@ $ ./install.sh
 - [Product Backlog](https://github.com/orgs/marjanpoimijat/projects/3)
 - [Sprint Backlogs](https://github.com/orgs/marjanpoimijat/projects)
 - [Work Hours](https://helsinkifi-my.sharepoint.com/:x:/g/personal/kajy_ad_helsinki_fi/EVqaF5z1-9pBt4fEqOvs6E0B5plAijWjgKxFrGQQqV2kSg?e=Iay2EU) (requires University of Helsinki login)
+
 ## Database
 
 - [Database schema](docs/images/bpt_schema.png)
