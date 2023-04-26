@@ -58,13 +58,13 @@ $ ./install.sh
 ## Technical
 
 - [AWS Deployment](docs/aws_deployment.md)
-- [Building instructions, frontend](docs/frontend_building_instructions.md)
+- [Building Instructions (frontend)](docs/frontend_building_instructions.md)
 - [CI/CD Pipeline](docs/cicd_pipeline.md)
 - [Encryption](docs/encryption.md)
 - [Features](docs/features.md)
-- [Frontend-backend communication](docs/frontend_backend_requests.md)
+- [Frontend-backend Communication](docs/frontend_backend_requests.md)
 - [Implementation](docs/implementation.md) (outdated)
-- [Instructions for new developers](docs/instructions_for_new_developers.md)
+- [Instructions For New Developers](docs/instructions_for_new_developers.md)
 - [Installation](docs/installation.md) (to be written)
 - [Known Issues](docs/known_issues.md)
 - [Production & Staging](docs/production_and_staging.md)

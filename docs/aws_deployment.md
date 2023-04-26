@@ -1,4 +1,6 @@
-AWS Deployment: The story so far
+# AWS Deployment
+
+The story so far
 
 - Lambda with RDS was chosen
 - Using Docker container in lambda, because it was already used in the project and it makes dependency handling easy
@@ -26,7 +28,8 @@ Creating the Lambda function should be straightforward as well.
 
 Test the Lambda function with the test events feature in Lambda, or by using it with the app. Test that the database and maps work.
 
-Networking
+## Networking
+
 [AWS network basics](https://coady.tech/aws-101-networking/)
 The project should be in a VPC, with security groups making sure that the database can only be accessed by the Lambda function. The Database security group only accepts connections from the 
 The current problem with this project is that we want to have our resources in a VPC to keep them secure, but also have our Lambda function get us maps and connect to the database. To allow our Lambda function access to the outside internet we would need to use a NAT Gateway, which is a bit costly. Because of this and other issues concerning maptile APIs, the deployment was put on hold to reassess the options for serving map tiles. 
