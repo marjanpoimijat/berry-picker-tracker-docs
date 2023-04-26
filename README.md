@@ -69,10 +69,10 @@ $ ./install.sh
 - [Known Issues](docs/known_issues.md)
 - [Production & Staging](docs/production_and_staging.md)
 - [Technologies](docs/technologies.md)
-- [Todo list for future developers](docs/todo_for_future_developers.md)
+- [Todo List for Future Developers](docs/todo_for_future_developers.md)
 - [Translation Guide](docs/translations.md)
 - [Troubleshooting](docs/troubleshooting.md)
-- [User Level Planning](docs/user_level_planning.md) (outdated)
+- [User Level Planning](docs/user_level_planning.md)
 - [Virtual Machine Connection](docs/virtual_machine_connection.md) (outdated)
 
 ## Scrum
