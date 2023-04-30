@@ -119,6 +119,7 @@ If you choose to use GitHub Projects for sprints backlogs, try to convert tasks 
 ## Useful Links
 
 - [Expo documentation](https://docs.expo.dev)
+- [Full Stack Open](https://fullstackopen.com/en)
 - [React Native documentation](https://reactnative.dev/docs/getting-started)
 - [Software engineering project information](https://github.com/HY-TKTL/TKT20007-Ohjelmistotuotantoprojekti)
 - [Staging server information](https://github.com/UniversityOfHelsinkiCS/ohtup-staging)
