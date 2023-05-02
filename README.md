@@ -67,7 +67,7 @@ For manual installation, check [installation.md](https://github.com/marjanpoimij
 - [Frontend-backend Communication](docs/frontend_backend_requests.md)
 - [Implementation](docs/implementation.md) (outdated)
 - [Instructions For New Developers](docs/instructions_for_new_developers.md)
-- [Installation](docs/installation.md) (to be written)
+- [Installation](docs/installation.md)
 - [Known Issues](docs/known_issues.md)
 - [Production & Staging](docs/production_and_staging.md)
 - [Technologies](docs/technologies.md)
