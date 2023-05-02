@@ -14,7 +14,7 @@
 
 - Finish frontend encrypt/decrypt methods and refactor database to match [the planned functionality](/docs/database.md#what-the-schema-should-be-refactored-to)
 
-The current library in use is [CryptoES](https://github.com/entronad/crypto-es) which uses the same API as [CryptoJS](https://github.com/brix/crypto-js). This is not the best possible choice, however the choices of cryptography libraries that work with both react-native and Expo are quite limited as of writing (May 2023). Generally the use of high-level cryptography libraries would be preferred and the state of compability of the libraries listed below should be checked periodically.
+The current library in use is [CryptoES](https://github.com/entronad/crypto-es) which uses the same API as [CryptoJS](https://github.com/brix/crypto-js). This is not the best possible choice, however the choices of cryptography libraries that work with both react-native and Expo are quite limited as of writing (May 2023). Generally the use of high-level cryptography libraries would be preferred and the state of compatibility of the libraries listed below should be checked periodically.
 
 ### Possible libraries to switch to
 
@@ -37,7 +37,6 @@ The current library in use is [CryptoES](https://github.com/entronad/crypto-es) 
 - User can pause an active route
 - User can share their route for a period of time (not indefinitely)
 - User can cancel the sharing of their data with other users
-- The shared routes are automatically updated
 
 ### Deep Linking
 
