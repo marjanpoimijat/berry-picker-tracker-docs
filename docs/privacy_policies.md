@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last updated**: March 22, 2023
+**Last updated**: May 2, 2023
 
 This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.
 
@@ -192,9 +192,3 @@ We may update Our Privacy Policy from time to time. We will notify You of any ch
 We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the "Last updated" date at the top of this Privacy Policy.
 
 You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
-
-# Contact Us
-
-If you have any questions about this Privacy Policy, You can contact us:
-
-- By email: [berry.picker.tracker@gmail.com](mailto:berry.picker.tracker@gmail.com)
