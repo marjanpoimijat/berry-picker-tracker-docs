@@ -12,7 +12,7 @@ Software requirements:
 - `pip3`
 - `git`
 - `PostgreSQL`
-- [`Android SDK` ](https://github.com/marjanpoimijat/berry-picker-tracker-docs/blob/main/docs/installation.md#running-the-app-in-an-android-emulator-on-cubbliubuntu)
+- [`Android SDK`](https://github.com/marjanpoimijat/berry-picker-tracker-docs/blob/main/docs/installation.md#running-the-app-in-an-android-emulator-on-cubbliubuntu)
 - [`Android Studio`](https://developer.android.com/studio/install#linux)
 
 ## Script
