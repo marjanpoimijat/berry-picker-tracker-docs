@@ -71,6 +71,10 @@ This application has a lot of code. Some of it can be complicated and just readi
 
 If something is not working or you want to know how something, read the documentation. Many technical aspects of the application has been documented.
 
+### 8. Plan the First Sprint
+
+A good place to start would be the [todo list](./todo_for_future_developers.md). Also, take a look at the [product backlog](https://github.com/orgs/marjanpoimijat/projects/3/views/1) of the previous team to see what was left unfinished. Make sure to discuss the first sprint with the customer.
+
 ## Secondary
 
 With everything urgent out of the way, here are some other things you should take care of.
@@ -112,7 +116,11 @@ This project has quite an extensive documentation. It is easy to just keep writi
 
 ### Convert Tasks Into Issues
 
-If you choose to use GitHub Projects for sprints backlogs, try to convert tasks into issues! This way you can assign GitHub users (your team members) into tasks, attach [labels](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels) to them 
+If you choose to use GitHub Projects for sprints backlogs, try to convert tasks into issues! This way you can assign GitHub users (your team members) into tasks, attach [labels](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels) to them.
+
+### Credit Your Teammates
+
+A commit can have [multiple authors](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors). Make sure to add your teammate as a co-author if you do pair programming.
 
 ## Useful Links
 
