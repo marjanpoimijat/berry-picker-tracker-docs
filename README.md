@@ -105,4 +105,4 @@ $ ./install.sh
 
 ### Privacy Policy
 
-- [Privacy Policy](privacy_policies.md) (outdated)
+- [Privacy Policy](docs/privacy_policies.md)
