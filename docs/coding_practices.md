@@ -62,7 +62,9 @@ npm update --save
 npx ncu -u
 ```
 
-`npx` is used to run [commands of an npm package](https://docs.npmjs.com/cli/v9/commands/npx). **Note:** `package-lock.json` is only updated when `npm install` is run.
+`npx` is used to run [commands of an npm package](https://docs.npmjs.com/cli/v9/commands/npx).
+
+> **Note** `package-lock.json` is only updated when `npm install` is run.
 
 By default `npm update` does not update packages to new major versions ([more info on semantic versions](https://semver.org/)). Major updates can easily be done via [npm-check-update](https://github.com/raineorshine/npm-check-updates) dev-only dependency.
 
@@ -102,6 +104,9 @@ The enviroment variables should be located in a `.env` file located in the proje
 ## Code Documentation
 
 ### Frontend
+
+> **Note**   
+> It might be a good idea to use the [JSDoc Generator](https://marketplace.visualstudio.com/items?itemName=crystal-spider.jsdoc-generator) extention.
 
 Use [JSDoc](https://jsdoc.app) to document TypeScript code. Example below.
 
@@ -178,9 +183,3 @@ The `docker` directory contains the files needed for both staging and production
 │   └── # main.py
 └── # configs etc.
 ```
-
-## Github tips
-
-- Github projects is nice for backlogs
-- At the start of a new sprint/during sprint planning **go through opened Github issues and mark them resolved** if they were done in the last sprint
-- A commit can have multiple authors. [How to add co-authors](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors)
