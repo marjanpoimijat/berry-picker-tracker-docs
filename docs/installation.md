@@ -13,7 +13,7 @@ Software requirements:
 - `git`
 - `PostgreSQL`
 - `Android SDK`
-- `Android Studio`
+- [`Android Studio`](https://developer.android.com/studio/install#linux)
 
 ## Script
 
