@@ -55,6 +55,8 @@ $ chmod +x install.sh
 $ ./install.sh
 ```
 
+For manual installation, check [installation.md](https://github.com/marjanpoimijat/berry-picker-tracker-docs/blob/main/docs/installation.md).
+
 ## Technical
 
 - [AWS Deployment](docs/aws_deployment.md)
