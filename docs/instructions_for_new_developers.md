@@ -61,9 +61,7 @@ For inspiration, see [Product Backlog](https://github.com/orgs/marjanpoimijat/pr
 
 Now is the time to set up the project so you can start developing the application.
 
-Refer to the following documentation to get started:
-- [Frontend installation](https://github.com/marjanpoimijat/berry-picker-tracker#installation)
-- [Backend installation](https://github.com/marjanpoimijat/berry-picker-tracker-server#installation)
+Refer to the [installation.md](https://github.com/marjanpoimijat/berry-picker-tracker-docs/blob/main/docs/installation.md) to get started.
 
 ### 6. Get Familiar with the Code
 
